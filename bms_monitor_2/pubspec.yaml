@@ -1,0 +1,29 @@
+name: bms_monitor_2
+description: BMS Monitoring app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  scoped_model: ^1.1.0
+  flutter_blue: ^0.8.0
+  google_fonts: ^2.2.0
+  flutter_spinkit: ^5.1.0
+  percent_indicator: ^3.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_app_name: ^0.1.0
+
+flutter_app_name:
+  name: 'BMS App'
+
+flutter:
+  uses-material-design: true
